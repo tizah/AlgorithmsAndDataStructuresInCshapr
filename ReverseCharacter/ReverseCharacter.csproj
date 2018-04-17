@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E39B8E3-868E-4530-B714-ACCA0E1F8A16}</ProjectGuid>
+    <ProjectGuid>{179186D9-1461-4049-9902-CF6A048C3D0F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmsAndDataStructuresInCshapr</RootNamespace>
-    <AssemblyName>AlgorithmsAndDataStructuresInCshapr</AssemblyName>
+    <RootNamespace>ReverseCharacter</RootNamespace>
+    <AssemblyName>ReverseCharacter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort.cs" />
-    <Compile Include="InsertionSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

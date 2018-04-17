@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E39B8E3-868E-4530-B714-ACCA0E1F8A16}</ProjectGuid>
+    <ProjectGuid>{76EC5113-8F57-4873-8442-F93473AED0B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmsAndDataStructuresInCshapr</RootNamespace>
-    <AssemblyName>AlgorithmsAndDataStructuresInCshapr</AssemblyName>
+    <RootNamespace>SchoolLabAssesMod2</RootNamespace>
+    <AssemblyName>SchoolLabAssesMod2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort.cs" />
-    <Compile Include="InsertionSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
