@@ -11,10 +11,34 @@ namespace Mod3StudentGrade
     {
         static void Main(string[] args)
         {
-            ArrayList stud = new ArrayList(4);
+            ArrayList stud = new ArrayList();
 
-            Student obj = new Student();
-            stud.Add(obj);
+            Student student1 = new Student();
+            Student student2 = new Student();
+            Student student3 = new Student();
+
+            student1.AddGrade(10);
+            student1.AddGrade(11);
+            student1.AddGrade(12);
+            student1.AddGrade(13);
+            student1.AddGrade(4);
+
+            student2.AddGrade(20);
+            student2.AddGrade(20);
+            student2.AddGrade(30);
+            student2.AddGrade(40);
+            student2.AddGrade(10);
+
+            student3.AddGrade(15);
+            student3.AddGrade(16);
+            student3.AddGrade(17);
+            student3.AddGrade(18);
+            student3.AddGrade(19);
+
+
+            stud.Add(student1);
+            stud.Add(student2);
+            stud.Add(student3);
 
             foreach (var students in stud)
             {
@@ -30,24 +54,14 @@ namespace Mod3StudentGrade
         public string Class;
         public Student()
         {
-            List<Student> student = new List<Student>()
-            {
-                new Student() {Class = "jss 2", Name="David"},
-                 new Student() {Class = "jss 3", Name="Tirzah"},
-                  new Student() {Class = "jss 4", Name="Zagi"},
-            };
             
-
          
         }
         public Stack AddGrade(decimal grade)
         {
             Stack Grades = new Stack();
-            Grades.Push(5);
-            Grades.Push(10);
-            Grades.Push(15);
-            Grades.Push(20);
-            Grades.Push(25);
+            Grades.Push(grade);
+
             return Grades;
         }
       
